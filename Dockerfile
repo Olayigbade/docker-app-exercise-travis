@@ -1,5 +1,5 @@
 # Use NodeJS base image
-FROM node:25.8.2
+FROM node:25.8.2-trixie-slim
 
 # Create app directory
 WORKDIR /usr/src/app
